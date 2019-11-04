@@ -1,0 +1,164 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   '@vue/cli',
+1 verbose cli   '4.0.5' ]
+2 info using npm@3.10.10
+3 info using node@v9.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData @vue/cli
+8 silly fetchPackageMetaData 4.0.5
+9 silly fetchNamedPackageData @vue/cli
+10 silly mapToRegistry name @vue/cli
+11 silly mapToRegistry scope (from package name) @vue
+12 verbose mapToRegistry no registry URL found in name for scope @vue
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: '@vue/cli',
+15 silly mapToRegistry   scope: '@vue',
+15 silly mapToRegistry   escapedName: '@vue%2fcli',
+15 silly mapToRegistry   name: '@vue/cli',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/@vue%2fcli
+17 silly fetchNamedPackageData 4.0.5
+18 silly mapToRegistry name 4.0.5
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: '4.0.5',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   escapedName: '4.0.5',
+21 silly mapToRegistry   name: '4.0.5',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://registry.npmjs.org/4.0.5
+23 verbose request uri https://registry.npmjs.org/4.0.5
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 14:50:58
+26 verbose request id 509345544f5bf66b
+27 http request GET https://registry.npmjs.org/4.0.5
+28 verbose request uri https://registry.npmjs.org/@vue%2fcli
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 14:50:59
+31 verbose etag W/"a1e1b7ed400130347d0527d84630297e"
+32 verbose lastModified Tue, 22 Oct 2019 11:55:29 GMT
+33 http request GET https://registry.npmjs.org/@vue%2fcli
+34 http 304 https://registry.npmjs.org/@vue%2fcli
+35 verbose headers { date: 'Tue, 29 Oct 2019 13:50:59 GMT',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'set-cookie':
+35 verbose headers    [ '__cfduid=de1b2c5c93d2e171b75001ba88c4b6a771572357059; expires=Wed, 28-Oct-20 13:50:59 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+35 verbose headers   'cf-cache-status': 'HIT',
+35 verbose headers   'cache-control': 'public, max-age=300',
+35 verbose headers   'cf-ray': '52d59f245b466ae7-WAW',
+35 verbose headers   age: '208',
+35 verbose headers   etag: '"a1e1b7ed400130347d0527d84630297e"',
+35 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+35 verbose headers   'last-modified': 'Tue, 22 Oct 2019 11:55:29 GMT',
+35 verbose headers   vary: 'Accept-Encoding',
+35 verbose headers   'x-amz-meta-rev': '115-189b1ac6c357a12c4f814e7d576db9fe',
+35 verbose headers   server: 'cloudflare' }
+36 silly get cb [ 304,
+36 silly get   { date: 'Tue, 29 Oct 2019 13:50:59 GMT',
+36 silly get     connection: 'keep-alive',
+36 silly get     'set-cookie':
+36 silly get      [ '__cfduid=de1b2c5c93d2e171b75001ba88c4b6a771572357059; expires=Wed, 28-Oct-20 13:50:59 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+36 silly get     'cf-cache-status': 'HIT',
+36 silly get     'cache-control': 'public, max-age=300',
+36 silly get     'cf-ray': '52d59f245b466ae7-WAW',
+36 silly get     age: '208',
+36 silly get     etag: '"a1e1b7ed400130347d0527d84630297e"',
+36 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+36 silly get     'last-modified': 'Tue, 22 Oct 2019 11:55:29 GMT',
+36 silly get     vary: 'Accept-Encoding',
+36 silly get     'x-amz-meta-rev': '115-189b1ac6c357a12c4f814e7d576db9fe',
+36 silly get     server: 'cloudflare' } ]
+37 verbose etag https://registry.npmjs.org/@vue%2fcli from cache
+38 verbose get saving @vue/cli to C:\Users\jasinaga.EU\AppData\Roaming\npm-cache\registry.npmjs.org\_40vue_252fcli\.cache.json
+39 verbose correctMkdir C:\Users\jasinaga.EU\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+40 http 404 https://registry.npmjs.org/4.0.5
+41 verbose headers { date: 'Tue, 29 Oct 2019 13:51:00 GMT',
+41 verbose headers   'content-type': 'application/json',
+41 verbose headers   'content-length': '21',
+41 verbose headers   connection: 'keep-alive',
+41 verbose headers   'set-cookie':
+41 verbose headers    [ '__cfduid=d6b08f5358b5aa88e111172ecb42e65091572357059; expires=Wed, 28-Oct-20 13:50:59 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+41 verbose headers   'cf-cache-status': 'MISS',
+41 verbose headers   'cache-control': 'max-age=300',
+41 verbose headers   'cf-ray': '52d59f245928cc9f-WAW',
+41 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+41 verbose headers   vary: 'accept-encoding, accept',
+41 verbose headers   server: 'cloudflare' }
+42 silly get cb [ 404,
+42 silly get   { date: 'Tue, 29 Oct 2019 13:51:00 GMT',
+42 silly get     'content-type': 'application/json',
+42 silly get     'content-length': '21',
+42 silly get     connection: 'keep-alive',
+42 silly get     'set-cookie':
+42 silly get      [ '__cfduid=d6b08f5358b5aa88e111172ecb42e65091572357059; expires=Wed, 28-Oct-20 13:50:59 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+42 silly get     'cf-cache-status': 'MISS',
+42 silly get     'cache-control': 'max-age=300',
+42 silly get     'cf-ray': '52d59f245928cc9f-WAW',
+42 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+42 silly get     vary: 'accept-encoding, accept',
+42 silly get     server: 'cloudflare' } ]
+43 silly fetchPackageMetaData Error: Not found : 4.0.5
+43 silly fetchPackageMetaData     at makeError (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+43 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+43 silly fetchPackageMetaData     at Request._callback (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+43 silly fetchPackageMetaData     at Request.self.callback (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:187:22)
+43 silly fetchPackageMetaData     at Request.emit (events.js:180:13)
+43 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:1048:10)
+43 silly fetchPackageMetaData     at Request.emit (events.js:180:13)
+43 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:969:12)
+43 silly fetchPackageMetaData     at IncomingMessage.emit (events.js:185:15)
+43 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:1106:12)
+43 silly fetchPackageMetaData  error for 4.0.5 { Error: Not found : 4.0.5
+43 silly fetchPackageMetaData     at makeError (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+43 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+43 silly fetchPackageMetaData     at Request._callback (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+43 silly fetchPackageMetaData     at Request.self.callback (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:187:22)
+43 silly fetchPackageMetaData     at Request.emit (events.js:180:13)
+43 silly fetchPackageMetaData     at Request.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:1048:10)
+43 silly fetchPackageMetaData     at Request.emit (events.js:180:13)
+43 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:969:12)
+43 silly fetchPackageMetaData     at IncomingMessage.emit (events.js:185:15)
+43 silly fetchPackageMetaData     at endReadableNT (_stream_readable.js:1106:12) pkgid: '4.0.5', statusCode: 404, code: 'E404' }
+44 silly rollbackFailedOptional Starting
+45 silly rollbackFailedOptional Finishing
+46 silly runTopLevelLifecycles Finishing
+47 silly install printInstalled
+48 verbose stack Error: Not found : 4.0.5
+48 verbose stack     at makeError (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+48 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+48 verbose stack     at Request._callback (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+48 verbose stack     at Request.self.callback (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:187:22)
+48 verbose stack     at Request.emit (events.js:180:13)
+48 verbose stack     at Request.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:1048:10)
+48 verbose stack     at Request.emit (events.js:180:13)
+48 verbose stack     at IncomingMessage.<anonymous> (C:\Users\jasinaga.EU\AppData\Roaming\nvm\v9.11.1\node_modules\npm\node_modules\request\request.js:969:12)
+48 verbose stack     at IncomingMessage.emit (events.js:185:15)
+48 verbose stack     at endReadableNT (_stream_readable.js:1106:12)
+49 verbose statusCode 404
+50 verbose pkgid 4.0.5
+51 verbose cwd C:\Users\jasinaga.EU\Documents\GitHub\VueToDoList
+52 error Windows_NT 10.0.17763
+53 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "@vue/cli" "4.0.5"
+54 error node v9.11.1
+55 error npm  v3.10.10
+56 error code E404
+57 error 404 Not found : 4.0.5
+58 error 404
+59 error 404 '4.0.5' is not in the npm registry.
+60 error 404 You should bug the author to publish it (or use the name yourself!)
+61 error 404 Note that you can also install from a
+62 error 404 tarball, folder, http url, or git url.
+63 verbose exit [ 1, true ]
