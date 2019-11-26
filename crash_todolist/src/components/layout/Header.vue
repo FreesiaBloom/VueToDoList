@@ -1,16 +1,18 @@
 <template>
     <header class="header">
         <h1>Todo List</h1>
-        <div id="nav">
-            <router-link to="/"><p>Home</p></router-link> |
-            <router-link to="/about"><p>About</p></router-link>
-        </div>
+        <Navbar />
     </header>
 </template>
 
 <script>
+import Navbar from "./Navbar"
+
 export default {
-    name: "Header"
+    name: "Header",
+    components: {
+        Navbar
+    },
 }
 </script>
 
