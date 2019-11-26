@@ -1,16 +1,27 @@
 <template>
   <div id="app">
+    <Navbar />
     <Header />
+    <div class="test">
+      <p>{{message}}</p>
+    </div>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Navbar from "./components/layout/Navbar"
 import Header from "./components/layout/Header"
 export default {
   name: "app",
   components: {
-    Header
+    Header,
+    Navbar
+  },
+  data() {
+    return {
+      titleUrl: this.$route.name,
+    };
   }
 }
 </script>
@@ -35,5 +46,9 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.test {
+  color: #000;
 }
 </style>
